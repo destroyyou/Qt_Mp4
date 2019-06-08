@@ -1,7 +1,11 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.5
-Item {
 
+Item {
+    function add()
+    {
+    console.log("asd")
+    }
     Rectangle{
         width: 500
         height: 500
@@ -55,9 +59,5 @@ Item {
             }
         }
 
-    }
-    function add()
-    {
-    console.log("asd")
     }
 }
